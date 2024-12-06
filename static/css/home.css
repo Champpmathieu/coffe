@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.logo-container {
+    display: flex;
+    justify-self: center;
+    height: 100vh;
+}
+
+.logo-cafe {
+    width: 200px;
+    height: 150px;
+}
