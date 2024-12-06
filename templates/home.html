@@ -10,11 +10,13 @@
     <div class="logo-container">
         <img src="{{ url_for('static', filename='images/logo-cafe.png') }}" alt="logo-cafe" class="logo-cafe">
     </div>
- 
-    <a href="{{ url_for('sobre') }}">
-        <button type="button">Ir para Sobre</button>
-    </a>
-
+    
+    <nav class="menu">
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('sobre')}}">Sobre</a></li>
+        </ul>
+    </nav>
 
     <script src="{{ url_for('static', filename='js/home.js') }}" async></script>
 </body>
