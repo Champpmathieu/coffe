@@ -2,20 +2,18 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
-
-.title {
-    display: flex;
-    justify-content: center;
+ 
+.sobre-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
 }
 
-.sub-title {
-    display: flex;
-    justify-content: center;
-}
 
 .button-return {
   background-color: white;
   color: black;
-  border: 2px solid #04AA6D; /* Green */
+  border: 2px solid #04AA6D; 
   
 }

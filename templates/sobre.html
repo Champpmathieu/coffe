@@ -6,15 +6,42 @@
   <title>Sobre</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/sobre.css') }}">
 </head>
-<body>
-  <div class="title">
-    <h1>Sobre Nosso Site de Café</h1>
-  </div>
-  <div class="sub-title">
-    <p>Aqui você encontra as melhores opções de café!</p>
-  </div>
 
+<body>
+
+  <header>
     <a href="{{ url_for('home') }}" ><button class="button-return">Voltar</button></a>
+  </header>
+  
+  <main class="sobre-container">
+    <h1>Olá!</h1>
+    <p>Bem-vindo ao nosso cantinho do café! ☕</p>
+
+    <section class="missao">
+        <h2>Nossa Missão</h2>
+        <p>
+            Selecionamos cuidadosamente grãos de alta qualidade, provenientes de fazendas sustentáveis, para garantir um café fresco e com sabor incomparável. Queremos compartilhar com você a essência do café: um momento de pausa, conexão e inspiração.
+        </p>
+    </section>
+
+    <section class="ofertas">
+        <h2>O Que Oferecemos</h2>
+        <ul>
+            <li>Grãos de café torrados artesanalmente.</li>
+            <li>Bebidas especiais feitas com amor e dedicação.</li>
+            <li>Um espaço para relaxar, trabalhar ou encontrar amigos.</li>
+        </ul>
+    </section>
+
+    <p>
+        Seja bem-vindo(a) para descobrir mais sobre o nosso mundo e experimentar o café como ele deve ser: puro, simples e delicioso.
+    </p>
+</main>
+
+
+<footer>
+    <p>&copy; 2024 Cantinho do Café. Todos os direitos reservados.</p>
+</footer>
   
 </body>
 </html>
