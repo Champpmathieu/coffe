@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
 </head>
 <body>
-    <div class="logo-container">
-        <img src="{{ url_for('static', filename='images/logo-cafe.png') }}" alt="logo-cafe" class="logo-cafe">
-    </div>
-    
-    <nav class="menu">
-        <ul>
-            <li><a href="{{ url_for('home') }}">Home</a></li>
-            <li><a href="{{ url_for('sobre')}}">Sobre</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='images/casa.png') }}" alt="logo-casa" class="logo-casa"></a></li>
+                <li><a href="{{ url_for('sobre')}}"><img src="{{ url_for('static', filename='images/informacoes.png') }}" alt="logo-informações" class="logo-info"></a></li>
+            </ul>
+        </nav>
+    </header>
 
     <script src="{{ url_for('static', filename='js/home.js') }}" async></script>
 </body>
 </html>
+
+
