@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +7,94 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
 </head>
 <body>
-    <header>
+    <header class="headerr">
         <nav class="menu">
             <ul>
-                <li><a href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='images/casa.png') }}" alt="logo-casa" class="logo-casa"></a></li>
-                <li><a href="{{ url_for('sobre')}}"><img src="{{ url_for('static', filename='images/informacoes.png') }}" alt="logo-informações" class="logo-info"></a></li>
+                <li>
+                    <a href="{{ url_for('home') }}">
+                        <img src="{{ url_for('static', filename='images/casa.png') }}" alt="Página inicial" class="logo-casa">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ url_for('sobre') }}">
+                        <img src="{{ url_for('static', filename='images/informacoes.png') }}" alt="Informações" class="logo-info">
+                        Sobre
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
 
-    <script src="{{ url_for('static', filename='js/home.js') }}" async></script>
+    <main>
+        
+        <h1>Bem-vindo ao Cantinho do Café!</h1>
+        <p>Explore nossas ofertas e descubra o melhor café para você!</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cantinho do Café. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Quem leu o botico é meu -->
