@@ -1,9 +1,9 @@
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 .headerr {
@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 2000px;
     margin: 0 auto;
 }
 
@@ -55,6 +55,18 @@ body {
     width: 24px;
 }
 
+footer {
+    background-color: #6f4e37;
+    color: #fefaf3;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    margin-top: 100vh;
+}
+
+footer p {
+    margin: 0;
+}
 
 @media (max-width: 768px) {
     .menu {
