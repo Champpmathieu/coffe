@@ -28,11 +28,11 @@
     </header>
 
     <main>
-        
-        <h1>Bem-vindo ao Cantinho do Café!</h1>
+        <h1>Bem-vindo {{ username }}! Ao Cantinho do Café!</h1>
         <p>Explore nossas ofertas e descubra o melhor café para você!</p>
+        <a href="{{ url_for('logout') }}">Sair</a>
     </main>
-
+    
     <footer>
         <p>&copy; 2024 Cantinho do Café. Todos os direitos reservados.</p>
     </footer>
